@@ -1,0 +1,36 @@
+.background-image {
+  background-image: url('/static/img/background.png');
+  background-size: cover;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 0px 25px;
+}
+
+.row-3{
+  width: 33%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.navbar-nav li a:hover {
+	background-color: #16f0c0;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(/static/font/CodeNext-Trial-Black.otf);
+}
+
+.brand-font {
+  font-family: myFirstFont;
+}

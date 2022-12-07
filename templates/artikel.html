@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Judul Halaman-->
+  <title>Ask Me Bot   |   Artikel</title>
+
+  <!--Icon-->
+  <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style1.css') }}">
+
+  <!--JavaScript-->
+  <script src={{ url_for('static', filename='/js/jquery_3.6.0.min.js') }} ></script>
+	<script src={{ url_for('static', filename='/js/bootstrap_3.4.1.min.js') }} ></script>
+</head>
+<body class="background-image" style="padding: 40px 10px; color: white;">
+    <!--Navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+      <div class="container">
+        <img src={{ url_for('static', filename='/img/logo.png') }} width="50" height="50">
+        <div class="navbar-header">
+          <a class="navbar-brand brand-font p-lg-3" href="index.html">Ask Me Bot</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-size: large;">
+          <div class="mx-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="index.html" style="font-weight: bold;">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="app.html" style="font-weight: bold;">Aplikasi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="artikel.html" style="font-weight: bold;">Artikel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="informasi.html" style="font-weight: bold;">Tentang Kami</a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+    <!--Artikel-->
+    <div id="link" class="container-fluid text-center">
+      <h2 class="text-center" style="margin: 22px 25px 4px;">Berita Terkait</h2>
+      <!-- row 1 -->
+      <br>
+      <div class="row row-cols-3">
+        <div class="column">
+          <a style="text-decoration: none;" href="https://daerah.sindonews.com/read/928207/704/modus-diajak-jalan-jalan-pacar-remaja-putri-jadi-korban-kekerasan-seksual-9-pria-1667214612">
+            <img src="https://pict.sindonews.net/dyn/732/pena/news/2022/10/31/704/928207/modus-diajak-jalanjalan-pacar-remaja-putri-jadi-korban-kekerasan-seksual-9-pria-dsg.jpg" alt="berita1" width="200" height="100">
+            <h4 class="text-white" style="text-align: justify; font-size: 20px;">Modus Diajak Jalan-jalan Pacar, Remaja Putri Jadi Korban Kekerasan Seksual 9 Pria</h4>
+          </a>
+          <p style="text-align: justify; font-size: 15px;">Remaja putri menjadi korban kekerasan seksual 9 pria usai diajak jalan-jalan sang pacar. Kasus ini pun telah dilaporkan ke polisi...</p>
+          <a class="btn btn-default btn-sm" href="https://daerah.sindonews.com/read/928207/704/modus-diajak-jalan-jalan-pacar-remaja-putri-jadi-korban-kekerasan-seksual-9-pria-1667214612" style="background-color:white">Read More</a>
+        </div>
+
+        <div class="column">
+          <a style="text-decoration: none;" href="https://daerah.sindonews.com/read/922027/701/diduga-cabuli-keponakan-berusia-8-tahun-pria-di-sukabumi-dijebloskan-ke-tahanan-1666667420">
+            <img src="https://pict.sindonews.net/dyn/732/pena/news/2022/10/25/701/922027/diduga-cabuli-keponakan-berusia-8-tahun-pria-di-sukabumi-dijebloskan-ke-tahanan-lob.jpg" alt="berita4" width="200" height="100">
+            <h4 class="text-white" style="text-align: justify; font-size: 20px;">Diduga Cabuli Keponakan Berusia 8 Tahun, Pria di Sukabumi Dijebloskan ke Tahanan</h4>
+          </a>
+          <p style="text-align: justify; font-size: 15px;">Seorang bocah, IS (8) warga Sukabumi diduga dicabuli pria berinisial RP (31). Tragisnya, korban merupakan keponakan...</p>
+          <a class="btn btn-default btn-sm" href="https://daerah.sindonews.com/read/922027/701/diduga-cabuli-keponakan-berusia-8-tahun-pria-di-sukabumi-dijebloskan-ke-tahanan-1666667420" style="background-color:white">Read More</a>
+        </div>
+
+        <div class="column">
+          <a style="text-decoration: none;" href="https://daerah.sindonews.com/read/929967/701/kasus-kekerasan-seksual-di-institusi-pendidikan-dosen-paling-banyak-lakukan-pemerkosaan-1667373066">
+            <img src="https://pict.sindonews.net/dyn/732/pena/news/2022/11/02/701/929967/kasus-kekerasan-seksual-di-institusi-pendidikan-dosen-paling-banyak-lakukan-pemerkosaan-oqy.jpg" alt="berita2" width="200" height="100">
+            <h4 class="text-white" style="text-align: justify; font-size: 20px;">Kasus Kekerasan Seksual di Institusi Pendidikan, Dosen Paling Banyak Lakukan Pemerkosaan</h4>
+          </a>
+          <p style="text-align: justify; font-size: 15px;">Kasus kekerasan seksual terhadap perempuan di institusi pendidikan paling banyak dilakukan tenaga kependidikan...</p>
+          <a class="btn btn-default btn-sm" href="https://daerah.sindonews.com/read/929967/701/kasus-kekerasan-seksual-di-institusi-pendidikan-dosen-paling-banyak-lakukan-pemerkosaan-1667373066" style="background-color:white">Read More</a>
+        </div>
+      </div>
+
+      <!-- row 2 -->
+      <br> <br>
+      <div class="row row-cols-3">
+        <div class="column">
+          <a style="text-decoration: none;" href="https://daerah.sindonews.com/read/929773/701/22-juta-perempuan-indonesia-korban-kekerasan-2204-kekerasan-seksual-1667358675">
+            <img src="https://pict.sindonews.net/dyn/732/pena/news/2022/11/02/701/929773/22-juta-perempuan-indonesia-korban-kekerasan-2204-kekerasan-seksual-vdt.jpg" alt="berita3" width="200" height="100">
+            <h4 class="text-white" style="text-align: justify; font-size: 20px;">2,2 Juta Perempuan Indonesia Korban Kekerasan, 2.204 Kekerasan Seksual</h4>
+          </a>
+          <p style="text-align: justify; font-size: 15px;">Komnas Perempuan mencatat sejak 2012 hingga 2021 kekerasan terhadap perempuan mencapai 2,2 juta kasus. Angka tersebut...</p>
+          <a class="btn btn-default btn-sm" href="https://daerah.sindonews.com/read/929773/701/22-juta-perempuan-indonesia-korban-kekerasan-2204-kekerasan-seksual-1667358675" style="background-color:white">Read More</a>
+        </div>
+
+        <div class="column">
+          <a style="text-decoration: none;" href="https://international.sindonews.com/read/862715/40/melawan-diperkosa-gadis-14-tahun-dipukuli-secara-brutal-hingga-patah-kaki-1661130509">
+            <img src="https://pict.sindonews.net/dyn/732/pena/news/2022/08/22/40/862715/menolak-diperkosa-gadis-14-tahun-dipukuli-secara-brutal-hingga-patah-kaki-szi.jpg" alt="berita4" width="200" height="100">
+            <h4 class="text-white" style="text-align: justify; font-size: 20px;">Melawan Diperkosa, Gadis 14 Tahun Dipukuli Secara Brutal hingga Patah Kaki</h4>
+          </a>
+          <p style="text-align: justify; font-size: 15px;">Gadis 14 tahun di India mengalami patah kaki setelah dipukuli pengemudi becak motor karena melawan upaya pemerkosaan...</p>
+          <a class="btn btn-default btn-sm" href="https://international.sindonews.com/read/862715/40/melawan-diperkosa-gadis-14-tahun-dipukuli-secara-brutal-hingga-patah-kaki-1661130509" style="background-color:white">Read More</a>
+        </div>
+
+        <div class="column">
+          <a style="text-decoration: none;" href="https://daerah.sindonews.com/read/826337/704/korban-kekerasan-seksual-di-jombang-mendapatkan-pendampingan-dari-lpsk-1657782448">
+            <img src="https://pict.sindonews.net/dyn/732/pena/news/2022/07/14/704/826337/korban-kekerasan-seksual-di-jombang-mendapatkan-pendampingan-dari-lpsk-mmz.jpg" alt="berita1" width="200" height="100">
+            <h4 class="text-white" style="text-align: justify; font-size: 20px;">Korban Kekerasan Seksual di Jombang Mendapatkan Pendampingan Dari LPSK</h4>
+          </a>
+          <p style="text-align: justify; font-size: 15px;">Lembaga Perlindungan Saksi dan Korban (LPSK), memberikan pendampingan psikologis terhadap korban kekerasan seksual...</p>
+          <a class="btn btn-default btn-sm" href="https://daerah.sindonews.com/read/826337/704/korban-kekerasan-seksual-di-jombang-mendapatkan-pendampingan-dari-lpsk-1657782448" style="background-color:white">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
